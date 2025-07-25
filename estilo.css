@@ -42,7 +42,7 @@ h1{
   }
   body{
     margin: auto;
-
+    font-size: 2em;
   }
 }
 @media (min-width:790px){
