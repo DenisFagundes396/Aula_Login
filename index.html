@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link rel="stylesheet" href="estilo.css">
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@500&icon_names=favorite,passkey"
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@600&icon_names=key,passkey"
     rel="stylesheet" />
 </head>
 <header>
@@ -21,21 +21,25 @@
       <div id="imagem"></div>
       <div id="formulario">
         <h1>Login</h1>
-        <span>Ver Celualr</span>
+      
         <p>Seja bem-vindo(a) novamente. Faça o login para acessar sua contae poder fazer acesso as configuraçōes no seu
           ambiente</p>
 
         <form type="text" action="login.php" method="post"></form>
-        <div class="main__div" id="dados">
+        <div class="main__div" >
           <span class="material-symbols-outlined">passkey</span>
-          <input class="dados__input" type="email">
+          <input class="dados__input" type="email" placeholder="seu e-mail">
         </div>
-        <div class="main__div" id="dados">
-          <span class="material-symbols-outlined">passkey</span>
+        <div class="main__div" >
+          <span class="material-symbols-outlined">key</span>
           <input class="dados__input" type="password" placeholder="sua senha">
         </div>
-        <button >Entrar</button>
-        <button >Esqueci senha</button>
+        <div>
+          <button class="main__button">Entrar</button>
+        </div>
+        <div>
+          <button class="main__button">Esqueci senha</button>
+        </div>
 
       </div>
     </section>

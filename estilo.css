@@ -19,10 +19,13 @@ h1{
   text-align: center;
   font-weight: 900;
 }
+p{
+  text-align: justify;
+}
 .main__div{
   border: 3px solid var(--CorPriDest--);
   background-color: var(--CorPriDest--);
-  border-radius: 5px;
+  border-radius: 8px;
   display: flex;
   place-items: center;
   margin-top: 5px;
@@ -31,7 +34,7 @@ h1{
 .dados__input{
   height: 30px;
   background: var(--CorPriNor--);
-  border-radius: 5px;
+  border-radius: 8px;
   width: 100%;
  
 }
@@ -41,12 +44,22 @@ h1{
   width: 50px;
 }
 
+.main__button{
+  width: 100%;
+  margin-top: 5px;
+  height: 40px;
+  background: var(--CorSecDest--);
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
 /* RESPONSIVIDADE */
 /* tela 1 */
 @media (max-width:790px){
    
   h1::before{
-    content:'TELA 1' ;
+    content:'t1 ' ;
   }
   section{
     width: 100%;
@@ -71,7 +84,7 @@ section{
 }
   
   h1::before{
-    content:'TELA 3' ;
+    content:'t2 ' ;
   }
 #formulario{
   margin: 10px;
