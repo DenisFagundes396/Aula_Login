@@ -28,7 +28,7 @@ h1{
   place-items: center;
 }
 
-@media (max-width:790px){
+@media (max-width:700px){
   .dados__input{
      width: 400px;
   }
