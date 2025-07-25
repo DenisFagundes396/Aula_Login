@@ -23,21 +23,33 @@ h1{
   border: 3px solid var(--CorPriDest--);
   background-color: var(--CorPriDest--);
   border-radius: 5px;
-  /* width: 90%; */
   display: flex;
   place-items: center;
+  margin-top: 5px;
 }
+
+.dados__input{
+  height: 30px;
+  background: var(--CorPriNor--);
+  border-radius: 5px;
+  width: 100%;
+ 
+}
+.material-symbols-outlined{
+  background: var(--CorPriDest--);
+  color: var(--CorPriNor--);
+  width: 50px;
+}
+
+/* RESPONSIVIDADE */
 /* tela 1 */
-@media (min-width:790px){
-  .dados__input{
-     width: 100%;
-  }
-    
+@media (max-width:790px){
+   
   h1::before{
     content:'TELA 1' ;
   }
   section{
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
   #formulario{
@@ -46,19 +58,10 @@ h1{
   }
   body, html{
     margin: 0px;
-    font-size: 2em;
+    font-size: 1.1em;
   }
 }
-/*
- Tela 2 
-@media (min-width:790px){
-  .dados__input{
-    width: 700px;
-  }
-  h1::before{
-    content:'TELA 2' ;
-  }
-} */
+
 /* Tela 3 */
 @media screen and (orientation: landscape){
 section{
@@ -74,24 +77,13 @@ section{
   margin: 10px;
   font-size: 1rem;
 }
+
 body{
   background: var(--CorPriDest--);
 }
 }
 
-.dados__input{
-  height: 30px;
-  background: var(--CorPriNor--);
-  border-radius: 5px;
-  border: none;
- 
-}
-.material-symbols-outlined{
-  background: var(--CorPriDest--);
-  color: var(--CorPriNor--);
-  width: 50px;
-  
-}
+
 
 
 
