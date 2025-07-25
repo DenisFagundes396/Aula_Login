@@ -27,37 +27,52 @@ h1{
   display: flex;
   place-items: center;
 }
-
-@media (max-width:700px){
+/* tela 1 */
+@media (min-width:790px){
   .dados__input{
-     width: 400px;
+     width: 100%;
+  }
+    
+  h1::before{
+    content:'TELA 1' ;
   }
   section{
-    width: 400px;
+    width: 90%;
     margin: auto;
   }
   #formulario{
-     width: 300px;
+     width: 90%;
      margin: auto;
   }
-  body{
-    margin: auto;
+  body, html{
+    margin: 0px;
     font-size: 2em;
   }
 }
+/*
+ Tela 2 
 @media (min-width:790px){
   .dados__input{
     width: 700px;
   }
-}
+  h1::before{
+    content:'TELA 2' ;
+  }
+} */
+/* Tela 3 */
 @media screen and (orientation: landscape){
 section{
   width: 500px;
   margin: auto;
   background: white;
 }
+  
+  h1::before{
+    content:'TELA 3' ;
+  }
 #formulario{
   margin: 10px;
+  font-size: 1rem;
 }
 body{
   background: var(--CorPriDest--);
