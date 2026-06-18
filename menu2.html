@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logim</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+        }
+        @media screen and (orientation: landscape){
+            main{
+                width: 400px;
+                margin: auto;
+                font-size: 0.8em;
+            }
+        }
+            
+        
+
+        section {
+            display: grid;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 1.5em;           
+        }
+
+        #foto {
+            background: url('imagens/fundo2_log.jpg') center center;
+            background-size: 70%;
+            width: 100%;
+            height: 30vh;
+        }
+        /* .section__imput, .section__button {
+            display: grid;
+        } */
+        input,button{
+         margin-top: 10px;
+         font-size: 1em;    
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div id="foto"></div>
+        <section>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus maiores quis est repudiandae quia!
+                Minima, reiciendis magnam debitis molestias tenetur doloremque nostrum laboriosam ratione facilis
+                eveniet alias cum obcaecati voluptate!</p>
+            <div class="section__imput">
+                <i class="material-icons">person</i>
+                <input type="text">
+                <input type="password">
+            </div>
+            <div class="section__button">
+                <button>Entrar</button>
+                <button>Esqueci senha</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

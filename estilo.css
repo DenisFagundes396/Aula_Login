@@ -7,6 +7,7 @@ roxo: #5f2c82
   --CorPriDest--:#5f2c82;
   --CorPriNor--: #fbf6ff;
   --CorSecDest--:#49a09d;
+  --CorSecNor--:#aaebe9;
 }
 
 #imagem{
@@ -96,7 +97,11 @@ body{
 }
 }
 
+/* CONTROLES MOUSE */
 
-
-
-
+.dados__input:hover{
+  background-color: var(--CorSecNor--);
+}
+.main__button:hover{
+  background-color: var(--CorSecNor--);
+}
